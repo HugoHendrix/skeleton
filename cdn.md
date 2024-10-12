@@ -1,4 +1,5 @@
 
+```md
 # CDN Links
 
 ### 1. **Bootstrap 5**
@@ -13,7 +14,19 @@ Bootstrap 5 é um framework de front-end que facilita o desenvolvimento de sites
 
 ----
 
-### 2. **Font Awesome 6**
+### 2. **Bootstrap 3**
+Bootstrap 3 é uma versão mais antiga e amplamente utilizada do framework de front-end. Ele oferece componentes e funcionalidades semelhantes ao Bootstrap 5, mas com um sistema de grid diferente e menos flexível.
+
+- **Versão utilizada**: 3.3.7
+- **CDN**:  
+  ```html
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  ```
+
+----
+
+### 3. **Font Awesome 6**
 Font Awesome oferece uma coleção de ícones vetoriais e logotipos sociais amplamente usados em aplicações web. A versão 6 vem com novos ícones e opções de personalização.
 
 - **Versão utilizada**: 6.0.0
@@ -22,9 +35,9 @@ Font Awesome oferece uma coleção de ícones vetoriais e logotipos sociais ampl
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   ```
 
- --- 
+----
 
-### 3. **Owl Carousel**
+### 4. **Owl Carousel**
 Owl Carousel é um plugin de JavaScript/jQuery que facilita a criação de carrosséis dinâmicos e responsivos para exibição de conteúdo.
 
 - **Versão utilizada**: 2.3.4
@@ -34,9 +47,9 @@ Owl Carousel é um plugin de JavaScript/jQuery que facilita a criação de carro
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   ```
 
- --- 
+----
 
-### 4. **AOS (Animate On Scroll)**
+### 5. **AOS (Animate On Scroll)**
 AOS é uma biblioteca leve de animação que permite a aplicação de efeitos conforme os elementos entram na visualização do usuário durante a rolagem da página.
 
 - **Versão utilizada**: 2.3.1
@@ -48,3 +61,5 @@ AOS é uma biblioteca leve de animação que permite a aplicação de efeitos co
       AOS.init();
   </script>
   ```
+```
+
