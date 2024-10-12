@@ -1,12 +1,10 @@
-
-```md
 # Gerenciamento Centralizado de `alt` e `title` de Imagens Usando JavaScript
 
 Este guia explica como gerenciar de forma eficiente os atributos `alt` e `title` de várias imagens em uma página usando JavaScript, de forma que a alteração do nome da marca seja feita em um único local e aplicada a todas as imagens automaticamente.
 
 ## Passo 1: Estrutura HTML com `data-brand`
-
 Adicione um `data-attribute` personalizado (`data-brand`) às imagens que você quer gerenciar dinamicamente.
+
 
 ```html
 <a href="/index.html">
