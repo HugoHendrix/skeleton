@@ -1,6 +1,37 @@
 # MENU MOBILE HTML, CSS e Javascript
 
-### HTML
+### HTML DESKTOP
+```HTML
+<header class="container-fluid w-100 pt-30 menu-desktop">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header-container">
+                    <img src="src/img/svg/logo-yoga.svg" class="header-logo" data-brand>
+                    <div class="header-menu">
+                        <nav>
+                            <ul class="header-links">
+                                <li><a href="#inicio">Início</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="#aulas">Aulas</a></li>
+                                <li><a href="#contato">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+```
+### CSS
+```CSS
+.header-container { padding-block: 20px; display: flex; justify-content: space-between; align-items: center; }
+.header-logo { width: 100%; max-width: 200px; } 
+.header-links { display: flex; justify-content: space-between;  gap: 60px; list-style: none;}
+```
+
+### HTML MOBILE
 ```HTML
 <div class="container-fluid w-100 menu-mobile-container">
         <div class="container">
